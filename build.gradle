@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation 'com.thegoate:testng:0.15.17.202207222244'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.3.0'
+    testImplementation 'junit:junit:4.13.1'
+}
